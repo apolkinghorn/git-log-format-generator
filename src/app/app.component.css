@@ -1,0 +1,19 @@
+.main {
+    height: 100%;
+}
+.content {
+    text-align: center;
+    height: 90%;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+app-format-demonstration {
+    display: block;
+    margin: 50px 0px;
+}
+
+app-format-builder {
+    flex-grow: 1;
+}
