@@ -1,3 +1,8 @@
 <div class="format-builder">
     <app-format-option-search />
+    <mat-grid-list class="format-options-grid" cols="3">
+        <mat-grid-tile *ngFor="let option of formatOptions">
+            <app-format-option-card [option]="option"/>
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>
