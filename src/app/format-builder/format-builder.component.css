@@ -1,7 +1,7 @@
-div {
+.format-builder {
     border-style: solid;
     border-width: 2px;
     border-color: black;
     border-radius: 20px;
-    height: 100%;
+    padding: 50px;
 }
